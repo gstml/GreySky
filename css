@@ -187,3 +187,8 @@ div.r-1xfd6ze {
   background: #F91880;
   bottom: 2em;
 }
+
+div.r-1x0uki6:nth-child(2){
+  max-width: 80%;
+  opacity: 0.8;
+}
