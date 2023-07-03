@@ -6,6 +6,27 @@
   font-smooth: never;
 }
 
+html, body, #root {
+  background-color: #212121;
+}
+
+body {
+  --fbc-blue-60: #2ACDFF;
+  --fbc-blue-70: #003eaa;
+  --fbc-gray-20: #ededf0;
+  --fbc-light-gray: #F0F0F4;
+  --fbc-white: #ffffff;
+  --fbc-transition: all .15s cubic-bezier(.07,.95,0,1);
+  --fbc-borders: 1px solid #ededf0;
+  --fbc-primary-text: #15141A;
+  --fbc-secondary-text: #5B5B66;
+  --fbc-font-size: 13px;
+}
+
+div.css-175oi2r.r-150rngu.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sncvnh {
+  background-color: #212121;
+}
+
 .r-1d5kdc7 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   background-color: #212121;
 }
@@ -130,3 +151,28 @@ span.css-1qaijid.r-dnmrzs.r-1udh08x.r-1udbk01.r-3s2u2q.r-1iln25a{
 div.css-175oi2r.r-5kkj8d.r-1sp51qo {
   margin-bottom: 1em;
 }
+
+.r-779j7e {
+  background-color: #191919;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+div.expo-image-container {
+  background-color: #191919;
+  border-radius: 20px;
+}
+
+.r-1ye8kvj {
+	background-color: #212121;
+}
+
+.r-q5xsgd {
+  background-color: #212121;
+}
+
+.css-1rynq56.r-13awgt0[style]{
+  color: #dedede;
+  line-height: 1.5em;
+}
+
