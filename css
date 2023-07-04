@@ -11,7 +11,7 @@ html, body, #root {
 }
 
 body {
-  --fbc-blue-60: #2ACDFF;
+  --fbc-blue-60: #00C1FF;
   --fbc-blue-70: #003eaa;
   --fbc-gray-20: #ededf0;
   --fbc-light-gray: #F0F0F4;
@@ -111,11 +111,12 @@ div.r-1hfyk0a:nth-child(2){
 }
 
 a.css-1qaijid.r-13awgt0.r-1loqt21 {
-  color: #2ACDFF;
+  color: #00C1FF;
 }
 
 .r-1sp51qo {
 	background-color: #212121;
+  border-radius: 20px;
 }
 
 .r-cv4lhi {
@@ -126,7 +127,12 @@ background-clip: text;
 -webkit-background-clip: text; 
 text-fill-color: transparent; 
 -webkit-text-fill-color: transparent;
-text-shadow: -1px -1px -1px rgba(247, 243, 217, 1);
+}
+
+.r-cv4lhi::after{
+  content: "\1F43E";
+  margin-left: 5px;
+font-size: 0.75em;
 }
 
 .r-wzwllv {
@@ -142,6 +148,7 @@ text-shadow: -1px -1px -1px rgba(247, 243, 217, 1);
 
 img{
   border-radius: 20px;
+  margin-top: 0.5em;
 }
 
 span.css-1qaijid.r-dnmrzs.r-1udh08x.r-1udbk01.r-3s2u2q.r-1iln25a{
@@ -161,6 +168,7 @@ div.css-175oi2r.r-5kkj8d.r-1sp51qo {
 div.expo-image-container {
   background-color: #191919;
   border-radius: 20px;
+  font-size: smaller;
 }
 
 .r-1ye8kvj {
@@ -174,5 +182,27 @@ div.expo-image-container {
 .css-1rynq56.r-13awgt0[style]{
   color: #dedede;
   line-height: 1.5em;
+  margin-bottom: 0.5em;
 }
 
+.r-f1odvy {
+	border-radius: 35px;
+	background-color: #191919;
+  margin: 0;
+}
+
+div.css-175oi2r.r-1xfd6ze.r-rs99b7.r-14gqq1x.r-15d164r {
+  background-color: transparent;
+}
+
+div.css-1rynq56 {
+  color: #dedede;
+}
+
+.r-84gixx {
+	color: #FF0886;
+}
+
+.r-5ld2xk {
+	color: #08FF7C;
+}
