@@ -38,6 +38,7 @@ div.css-175oi2r.r-150rngu.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sn
 .r-1d5kdc7 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1),
 .r-thmkab {
   background-color: #191919;
+  border-radius: 20px;
 }
 
 div.css-175oi2r.r-5kkj8d.r-1sp51qo.r-xd6kpl.r-ry3cjt{
@@ -108,6 +109,18 @@ div.r-1hfyk0a:nth-child(2){
 
 .r-opedn5 {
   background-color: #191919;
+}
+
+.r-opedn5:first-child {
+border-bottom-left-radius: 15px;
+}
+
+.r-opedn5:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.r-1ta3fxp {
+  column-gap: 0px; 
 }
 
 a.css-1qaijid.r-13awgt0.r-1loqt21 {
@@ -205,4 +218,34 @@ div.css-1rynq56 {
 
 .r-5ld2xk {
 	color: #08FF7C;
+}
+
+.r-hbo57b {
+	background-color: #EB4899;
+}
+
+.r-1w88a7h {
+  background-color: #212121;
+}
+
+.r-ryqm5k {
+  background-color: #212121;
+  border-radius: 20px;
+  padding: 1em;
+
+}
+
+.r-1ipicw7 {
+background-color: #212121;
+  width: 270px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+div.r-5kkj8d:nth-child(3) > svg:nth-child(1) > path:nth-child(1){
+  fill: #F9A600;
+}
+
+div.r-1x0uki6:nth-child(2) > div:nth-child(2) > a{
+  color: #00C1FF;
 }
